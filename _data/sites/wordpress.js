@@ -1,6 +1,6 @@
 module.exports = {
     name: "WordPress", // optional, falls back to object key
-    description: "WordPress sites I've developed for clients",
+    description: "WordPress Sites",
     options: {
         frequency: 60 * 23, // 24 hours
         // Use "run" if the sites don’t share assets on the same origin
