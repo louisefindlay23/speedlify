@@ -14,5 +14,6 @@ module.exports = {
 		"https://camperceilidh.com",
 		"https://neosome.com",
 		"https://jomccafferty.com",
+		"https://aberdeenconcertband.com",
 	]
 };
