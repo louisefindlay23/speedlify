@@ -3,31 +3,27 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Speedlify</title>
-		<meta name="description" content="Benchmark web pages over time.">
+		<title>LF Design Speedlify</title>
+		<meta name="description" content="Automated Google Lighthouse testing on LF Design sites.">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato&family=Fira+Code&display=swap" />
 		<link rel="stylesheet" href="{{ '/style.css' | url }}">
 		<script>
 		document.documentElement.classList.add("js");
 		</script>
 	</head>
 	<body>
-		<h1 class="speedlify-hed"><a href="{{ '/' | url }}">speedlify</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
+		<h1 class="speedlify-hed"><a href="{{ '/' | url }}">LF Design Speedlify</a>{% if vertical %}:{{ vertical }}{% endif %}</h1>
 		<p class="speedlify-subhed">
-			Benchmark {{ sites[vertical].description or "web pages" }} over time.
+			Automated Google Lighthouse testing on <a href="https://louisefindlay.com">LF Design</a> sites.
 			{%- if maxResults %}
 				Updates <em>at most</em> once every {{ sites[vertical].options.frequency or 60 }} minutes. Only the last {{ maxResults }} result{% if maxResults != 1 %}s{% endif %} (and the oldest result) are shown.
 			{% endif %}
-			Created by <a href="https://www.zachleat.com/">@zachleat</a>.
 		</p>
 		<p class="speedlify-subhed">
-			<a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Deploy your own instance of Speedlify and test your web sites</a>.
+			Sites are categorised by technology type and are analysed based on desktop performance, best practises, SEO and Axe accessibility.
 		</p>
 
 		{{ content | safe }}
-
-		<footer>
-			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.
-		</footer>
 
 		<script defer src="{{ '/chartist.js' | url }}"></script>
 		<script defer src="{{ '/script.js' | url }}"></script>
