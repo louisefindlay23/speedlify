@@ -5,7 +5,7 @@ html {
 
 body {
     font-family: "Fira Sans", sans-serif;
-    background-color: #EA6001;
+    background-color: #65a4cc;
     color: #fff;
     margin: 0.5rem;
     /* 8px /16 */
@@ -90,6 +90,7 @@ abbr {
     text-align: center;
     font-size: 2em;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 @media (min-width: 37.5em) {
