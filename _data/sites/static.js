@@ -7,8 +7,5 @@ module.exports = {
     urls: [
 		"https://hairbyjuliehairdressers.co.uk",
         "https://birkentree.com",
-        "https://github.com/louisefindlay23/BBC-iPlayer",
-        "https://projects.louisefindlay.com/rguhack2020-attendr",
-        "https://projects.louisefindlay.com/silvernote",
 	]
 };
