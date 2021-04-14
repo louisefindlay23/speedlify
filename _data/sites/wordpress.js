@@ -10,10 +10,11 @@ module.exports = {
         freshChrome: "run"
     },
     urls: [
+        "https://aberdeenconcertband.com",
 		"https://thestitchfairie.co.uk",
 		"https://camperceilidh.com",
 		"https://neosome.com",
 		"https://jomccafferty.com",
-		"https://aberdeenconcertband.com",
+        "https://lastingimpactacademy.com"
 	]
 };
