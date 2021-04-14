@@ -20,6 +20,11 @@ code {
     font-family: "Fira Code", monospace;
 }
 
+.speedlify-score {
+    border: 3px solid #0cce6b;
+    background: #ffffff;
+}
+
 html:not(.js) [data-js-only] {
     display: none !important;
 }
