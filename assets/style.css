@@ -21,7 +21,7 @@ code {
 }
 
 .speedlify-score {
-    border: 3px solid #0cce6b;
+    border-width: 3px;
     background: #ffffff;
 }
 
