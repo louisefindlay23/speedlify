@@ -13,6 +13,7 @@ module.exports = {
         "https://aberdeenconcertband.com",
 		"https://thestitchfairie.co.uk",
 		"https://camperceilidh.com",
-        "https://lastingimpactacademy.com"
+        "https://lastingimpactacademy.com",
+        "https://www.nkyconsulting.co.uk"
 	]
 };
